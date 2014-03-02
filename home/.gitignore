@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+_build
+*.swp
+_sample
+_bin
+*.crx
+*.pem
+.idea
+gitignore

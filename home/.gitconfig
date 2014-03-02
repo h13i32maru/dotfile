@@ -1,0 +1,22 @@
+[core]
+    excludesfile = ~/.gitignore
+
+[user]
+    name = h13i32maru
+    email = h13i32maru@gmail.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+
+[alias]
+    st = status
+    di = diff
+    co = checkout
+
+#[github]
+#	user = h13i32maru
+#	token = 0f72449d85aa9c884ecdec2c2c7f6059
+[push]
+	#default = simple
