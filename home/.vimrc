@@ -18,6 +18,7 @@ set nocindent
 set noautoindent
 set textwidth=0
 set foldmethod=marker
+set formatoptions=q
 "macvimではこの設定必要
 "autocmd FileType * set nocindent
 
@@ -32,14 +33,11 @@ au! BufRead,BufNewFile *.json set filetype=json
 au! BufRead,BufNewFile *.tpl set filetype=html
 au BufRead,BufNewFile *.tpl,*.html,*.css setlocal ts=2 sw=2 sts=0
 
-source ~/.vim/h13i32maru/global.vim
-au FileType javascript source ~/.vim/h13i32maru/javascript.vim
-au BufRead,BufNewFile *.rst setlocal ts=3 sw=3 sts=0
+"source ~/.vim/h13i32maru/global.vim
+"au FileType javascript source ~/.vim/h13i32maru/javascript.vim
+"au BufRead,BufNewFile *.rst setlocal ts=3 sw=3 sts=0
 
 "au BufWritePost *.php !php -l %
 
-set rtp+=~/.vim/vundle.git/
-call vundle#rc()
- 
-"Bundle "Markdown"
-"Bundle "Markdown-syntax"
+"set rtp+=~/.vim/vundle.git/
+"call vundle#rc()

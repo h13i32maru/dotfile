@@ -5,13 +5,13 @@ export LANG=ja_JP.UTF-8
 # source
 source ~/.git-tool/git-completion.bash
 source ~/.git-tool/git-prompt.sh
-PS1='$(__git_ps1 "\[[1;31m\](%s)\[[0m\]")\[[1;36m\]\u@MBA[\t]:\w\n\$ \[[0m\]'
+PS1='$(__git_ps1 "\[[1;31m\](%s)\[[0m\]")\[[1;36m\]\u@local[\t]:\w\n\$\[[0m\] '
 
 # path
 export PATH=/Applications/android-sdk-mac_x86/platform-tools/:$PATH
 
 # alias
-alias lx="ls -lXh"
+alias lx="ls -lh"
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
