@@ -1,6 +1,6 @@
 set nocompatible
 syntax on
-set directory=~/.vimswap
+"set directory=~/.vimswap
 set ts=2 sw=2 sts=0
 set fileencodings=utf-8,sjis,utf-16
 set fileencoding=utf-8

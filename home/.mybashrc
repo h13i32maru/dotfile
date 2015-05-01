@@ -34,7 +34,3 @@ if [ -e "/Applications/MacVim.app/Contents/MacOS/Vim" ]
 then
   alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim -g --remote-tab-silent "$@"'
 fi
-
-# klab
-alias klab="(ps aux | grep 'ssh -N klab' | grep -v grep > /dev/null) || ssh -N klab &"
-
